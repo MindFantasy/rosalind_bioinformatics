@@ -44,7 +44,6 @@ for key in lables:
     result[key.lable] = key.content
 
 
-
 max_content = max(result.values())
 max_lable = max(result, key = result.get)
 print(f"{max_lable}\n{max_content:.6f}")
